@@ -4,6 +4,14 @@
  body {
   font-family: Lato, sans-serif;
  }
+ *,
+ *:before,
+ *:after {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
 .header_content {
 	display:flex;
   justify-content: space-between;
