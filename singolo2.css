@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+.filter {
+	  margin-left: 1px;
+    margin-top: 9px;
+    display:flex;
+    list-style:none;
+    margin-bottom:20px;
+}
+.filter li {
+		line-height: 20px;
+		border: 1px solid #767e9e;
+		border-radius: 5px;
+		margin-right: 10px;
+		text-align: center;
+		padding: 0 5.8px;
+		font-weight: 400;
+		font-size: 12px;
+		color: #767e9e;
+}
+.filter li:hover {
+    cursor: pointer;
+    border-color: #fff;
+    color: #fff;
+}
+.portfolio {
+	  background-color: #2d303a;
+    border-bottom: 6px solid #323756;
+    width: 1020px;
+    margin: 0 auto;
+    padding: 70px 40px 46.5px 40px;
+}
+.portfolio h1 {
+	  color: #666d89;
+    font-weight: 900;
+    line-height: 21px;
+    font-size: 30px;
+    letter-spacing: 0.2px;
+}
+.portfolio_disc {
+	  padding-top: 24px;
+    font-weight: 300;
+    color: #767e9e;
+    line-height: 30px;
+    font-size:18px;
+    letter-spacing: -0.22px;
+}
+.gallery {
+    display: flex;
+    max-height: 621px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.gallery img {
+    width: 220px;
+    height: 187px;
+    margin-bottom: 20px;
+}
+.about-us_content {
+	  background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+    width: 1020px;
+    margin: 0 auto;
+    padding: 72px 40px 62px 40px;
+
+}
+.about-us_title {
+	  color: #666d89;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 17.86px;
+}
+.about-us_p {
+	  margin-top: 26px;
+    color: #767e9e;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: -0.24px;
+    text-align: justify;
+}
+.cards {
+	  margin-top: 43px;
+    height: 448px;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+	  max-width: 300px;
+}
+.card_name {
+	  margin-top: 14px;
+    color: #666d89;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 17.86px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.card_about {
+	  margin-top: 11px;
+    color: #767e9e;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: justify;
+}
+.social-links {
+    margin-top: 24px;
+}
+.social-links img {
+    margin-right: 4px;
+}
+.social-links img:hover {
+    opacity: 0.5;
+}
